@@ -6,7 +6,7 @@
     <description>Recent content on Fracture</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 26 Feb 2021 20:05:48 +0100</lastBuildDate><atom:link href="https://fracturegame.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Feb 2021 08:39:00 +0100</lastBuildDate><atom:link href="https://fracturegame.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Project 1</title>
       <link>https://fracturegame.github.io/project/project1/</link>
@@ -44,6 +44,15 @@
     </item>
     
     <item>
+      <title>Webgl</title>
+      <link>https://fracturegame.github.io/webgl/</link>
+      <pubDate>Sat, 27 Feb 2021 08:39:00 +0100</pubDate>
+      
+      <guid>https://fracturegame.github.io/webgl/</guid>
+      <description>  Unity WebGL Player | FractureRBTest    var unityInstance = UnityLoader.instantiate(&#34;unityContainer&#34;, &#34;/webgl/Build/WebGlBin.json&#34;, {onProgress: UnityProgress});       FractureRBTest     </description>
+    </item>
+    
+    <item>
       <title>Team</title>
       <link>https://fracturegame.github.io/team/</link>
       <pubDate>Fri, 26 Feb 2021 20:05:48 +0100</pubDate>
@@ -68,7 +77,7 @@
       <pubDate>Thu, 25 Feb 2021 15:05:30 +0100</pubDate>
       
       <guid>https://fracturegame.github.io/timeline/</guid>
-      <description>La Chronologie de réalisation Naissance du projet 6 Décembre 2020    Nous avons choisi de réaliser un jeu vidéo en utilisant Unity et le langage C#. L’idée initiale est un jeu de plateformes en 2 dimensions à 2 joueurs uniquement, où chaque joueur contrôlera un personnage sur un écran scindé, et où ils devront coopérer afin de venir à bout des différents niveaux. Le projet a été baptisé Fracture et va nous permettre d’acqu´erir de nouvelles connaissances dans des domaines que nous n’aurions autrement pas eu la chance d’´etudier.</description>
+      <description>Chronologie de réalisation Naissance du projet 6 Décembre 2020    Nous avons choisi de réaliser un jeu vidéo en utilisant Unity et le langage C#. L’idée initiale est un jeu de plateformes en 2 dimensions à 2 joueurs uniquement, où chaque joueur contrôlera un personnage sur un écran scindé, et où ils devront coopérer afin de venir à bout des différents niveaux. Le projet a été baptisé Fracture et va nous permettre d’acqu´erir de nouvelles connaissances dans des domaines que nous n’aurions autrement pas eu la chance d’´etudier.</description>
     </item>
     
     <item>
