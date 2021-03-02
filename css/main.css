@@ -10,7 +10,7 @@ body {
     display: flex;
     text-align: center;
     flex-direction: column;
-    /* color: white; */
+    color: white;
 }
 
 
@@ -38,7 +38,7 @@ h1 {
 }
 
 .history {
-    width: 50%;
+    width: 70%;
     height: 100%;
     margin: auto;
     color: white;
@@ -75,7 +75,7 @@ h1 {
     width: 70%;
     margin: auto;
     color: white;
-    /* padding-bottom: 2.5rem; */
+    padding-bottom: 2.5rem;
 }
 
 .timeline h1 {
@@ -577,7 +577,6 @@ img {
 	 height: 0;
 	 border: solid transparent;
 	 position: absolute;
-	 /* pointer-events: none; */
 	 right: 100%;
      
 }
@@ -615,14 +614,12 @@ label {
 
 label:hover {
     cursor: text;
-    /* text-decoration: underline; */
 }
 
  .radio {
 	 display: none;
 }
  .radio:checked + .relative label {
-	 /* cursor: pointer; */
 	 transform: translateX(42px);
 }
  .radio:checked + .relative .circle {
@@ -641,15 +638,78 @@ label:hover {
 	 transition: color 0.3s linear 0.3s;
 }
 
+#logo {
+    width: 150px;
+    height: 150px;
+}
 
+
+.singepic {
+
+    display: inline-block; 
+    width: 80px; 
+    height: 80px; 
+    margin-right: 20px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 480px) {
+
+    .timeline h1 {
+        line-height: 200%;
+    }
+
+    .history h1 {
+        line-height: 200%;
+    }
+
+    .about h1 {
+        line-height: 200%;
+    }
+
+}
 
 
 /* ------------------------------------- * mobile phones (vertical version only) * ------------------------------------- */
  @media screen and (max-width: 950px) {
 
+    .singepic {
+
+        width: 40px; 
+        height: 40px; 
+
+    }
+
+    figcaption {
+        font-size: 10px;
+    }
+
+    /* .text-justify {
+        width: 100%;
+    } */
+
+    .history {
+        width: 80%;
+    }
+    
+    .history {
+
+    }
+
     .timeline {
         width: 100%;
     }
+
+
+    #history {
+        margin: 0;
+        padding: 0;
+    }
+
 
 	 #timeline {
 		 margin-left: 0;
@@ -700,4 +760,3 @@ label:hover {
 		 display: none;
 	}
 }
- 
