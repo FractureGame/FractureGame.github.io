@@ -13,7 +13,7 @@
       <pubDate>Sat, 27 Feb 2021 08:39:00 +0100</pubDate>
       
       <guid>https://fracturegame.github.io/webgl/</guid>
-      <description>  Unity WebGL Player | FractureRBTest    var unityInstance = UnityLoader.instantiate(&#34;unityContainer&#34;, &#34;Build/WebGlBin.json&#34;, {onProgress: UnityProgress});       FractureRBTest     </description>
+      <description>  Unity WebGL Player | Fracture    var unityInstance = UnityLoader.instantiate(&#34;unityContainer&#34;, &#34;Build/WebGlBin.json&#34;, {onProgress: UnityProgress});       Fracture     </description>
     </item>
     
     <item>
