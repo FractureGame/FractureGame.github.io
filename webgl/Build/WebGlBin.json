@@ -1,6 +1,6 @@
 {
-"companyName": "DefaultCompany",
-"productName": "FractureRBTest",
+"companyName": "Schrodinger's Monkeys",
+"productName": "Fracture",
 "productVersion": "0.1",
 "dataUrl": "WebGlBin.data.unityweb",
 "wasmCodeUrl": "WebGlBin.wasm.code.unityweb",
