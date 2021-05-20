@@ -6,7 +6,7 @@
     <description>Recent content on Fracture</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Feb 2021 08:39:00 +0100</lastBuildDate><atom:link href="https://fracturegame.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 May 2021 11:55:47 +0200</lastBuildDate><atom:link href="https://fracturegame.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Project 1</title>
       <link>https://fracturegame.github.io/project/project1/</link>
@@ -41,6 +41,16 @@
       
       <guid>https://fracturegame.github.io/project/project4/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Download</title>
+      <link>https://fracturegame.github.io/download/</link>
+      <pubDate>Thu, 20 May 2021 11:55:47 +0200</pubDate>
+      
+      <guid>https://fracturegame.github.io/download/</guid>
+      <description>h1 { text-align: center; text-decoration: white wavy underline; text-underline-offset: 10px; } .btn-group { width: 70%; text-align: center; display: block; margin: auto; } button { top: 0; float: left; font-size: 3vw; background-color: orange; color: black; transition: top ease 0.5s; border-radius: 50px; border-width: 5px; border-color: black; width: 31%; margin: 1%; padding: 1%; } button:hover { top: -5px; background-color: orangered; }  Téléchargements 
+Download For Windows</description>
     </item>
     
     <item>
