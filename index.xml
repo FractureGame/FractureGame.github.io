@@ -49,8 +49,7 @@
       <pubDate>Thu, 20 May 2021 11:55:47 +0200</pubDate>
       
       <guid>https://fracturegame.github.io/download/</guid>
-      <description>h1 { text-align: center; text-decoration: white wavy underline; text-underline-offset: 10px; } .btn-group { width: 70%; text-align: center; display: block; margin: auto; } button { top: 0; float: left; font-size: 3vw; background-color: orange; color: black; transition: top ease 0.5s; border-radius: 50px; border-width: 5px; border-color: black; width: 31%; margin: 1%; padding: 1%; } button:hover { top: -5px; background-color: orangered; }  Téléchargements 
-Download For Windows</description>
+      <description>h1 { text-align: center; text-decoration: white wavy underline; text-underline-offset: 10px; } h2 { text-decoration: white underline; text-underline-offset: 10px; line-height: 50px; } .wrapper { text-align: center; background-color: black; padding: 20px; padding-top: 5px; width: 50%; margin-top: 100px; margin-left: auto; margin-right: auto; border: 1px solid white; border-radius: 5px; position: relative; top: 0; transition: top ease 0.5s; } .wrapper:hover { top: -5px; } .wrapper ul { display: inline-block; } .</description>
     </item>
     
     <item>

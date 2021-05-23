@@ -186,25 +186,58 @@ $(document).ready(function(){
     <script src="/particles/demo/js/app.js"></script>
 </div>
 <style>
-
-
-
     h1 {
         text-align: center;
         text-decoration: white wavy underline;
         text-underline-offset: 10px;
     }
 
-    .btn-group {
-        width: 70%;
+    h2 {
+        text-decoration: white underline;
+        text-underline-offset: 10px;
+        line-height: 50px;
+    }
+
+    .wrapper {
         text-align: center;
-        display: block;
-        margin: auto;
+        background-color: black;
+        padding: 20px;
+        padding-top: 5px;
+        width: 50%;
+        margin-top: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid white;
+        border-radius: 5px;
+        position: relative;
+        top: 0;
+        transition: top ease 0.5s;
+    }
+
+    .wrapper:hover {
+        top: -5px;
+    }
+
+    .wrapper ul {
+        display: inline-block;
+
+    }
+
+    .wrapper li {
+        text-align: left;
+    }
+
+    .btnwrapper {
+        text-align: center;
+    }
+
+    form {
+        display: inline-block;
     }
 
     button {
+        position: relative;
         top: 0;
-        float: left;
         font-size: 3vw;
         background-color: orange;
         color: black;
@@ -212,7 +245,7 @@ $(document).ready(function(){
         border-radius: 50px;
         border-width: 5px;
         border-color: black;
-        width: 31%;
+        width: 400px;
         margin: 1%;
         padding: 1%;
     }
@@ -222,10 +255,18 @@ $(document).ready(function(){
         background-color: orangered;
     }
 
+
+    @media screen and (max-width: 480px) {
+
+    .download h1 , h2{
+        line-height: 200%;
+    }
+}
 </style>
-<h1>Téléchargements</h1>
+
 <div class="download">
-    <div class="btn-group">
+    <h1>Téléchargements</h1>
+    <div class="btnwrapper">
         <form method="get" action="/builds/FractureGame_Windows.zip">
             <button type="submit">
                 <img src="/img/windows.png" width="50%"/>
@@ -254,7 +295,22 @@ $(document).ready(function(){
             </button>
         </form>
     </div>
+    <div class="wrapper">
+        <h2>
+            Instructions d'installation
+        </h2>
+        <br/>
+        <ul>
+            <li>Télécharger une archive du jeu en cliquant sur l'un des 3 boutons ci-dessus</li>
+            <li>Décompresser l'archive téléchargée</li>
+            <li>Pour lancer le jeu, executer le fichier "Fracture" dans le dossier extrait</li>
+        </ul>
+    </div>
 </div>
+
+
+
+
 </div>
 
     
